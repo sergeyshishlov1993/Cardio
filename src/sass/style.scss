@@ -1,0 +1,14 @@
+body {
+   font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+.container {
+   max-width: 1140px;
+   margin: 0 auto;
+}
+@import "./block/promo";
+@import "./block/popular";
+@import "./block/program";
+@import "./block/video";

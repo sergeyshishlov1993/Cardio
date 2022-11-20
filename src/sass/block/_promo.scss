@@ -1,0 +1,129 @@
+.promo {
+   height: 1170px;
+   padding-top: 60px;
+   background: #000000;
+   &__menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   &__subtitle {
+      padding-left: 1%;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+   }
+   &__list-item {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      li {
+         margin-right: 50px;
+      }
+      a {
+         text-decoration: none;
+         font-size: 12px;
+         line-height: 12px;
+         letter-spacing: 1.5px;
+         color: #FFFFFF;
+          &:hover {
+         color: #25AB75;
+         }
+      }
+     
+   }
+   &__calories {
+      margin-top: 136px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 329px;
+      height: 36px;
+      background: #181616;
+      border-radius: 200px;
+   }
+   &__new {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 46px;
+      height: 26px;
+      background: #25AB75;
+      border-radius: 200px;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 18px;
+      letter-spacing: 1.5px;
+      color: #FFFFFF;
+   }
+   &__text {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.5px;
+      color: #FFFFFF;
+   }
+   &__wrapper {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+
+      &-text {
+         margin-top: 40px;
+         width: 500px;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 29px;
+         letter-spacing: 0.5px;
+         color: #FFFFFF;
+      }
+   }
+   &__title {
+      margin: 0;
+      margin-top: 40px;
+      font-weight: 600;
+      font-size: 200px;
+      line-height: 170px;
+      letter-spacing: -2px;
+      color: #FFFFFF;
+      z-index: 0;
+   }
+   &__photo {
+      position: absolute;
+      right: 5%;
+      top: 14%;
+      z-index: 1;
+      img{
+         height: 80%;
+         width: 90%;
+      }
+   }
+   &__wrapper-link {
+      margin-top: 50px;
+      width: 430px;
+      display: flex;
+      justify-content: space-around;
+   }
+   &__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 70px;
+      background: #181616;
+      border-radius: 10px;
+      a {
+         text-decoration: none;
+         font-weight: 600;
+         font-size: 18px;
+         line-height: 22px;
+         letter-spacing: 1px;
+         color: #FFFFFF;
+      }
+      &:hover {
+         transition: all 0.3s;
+         background: #25AB75;
+      }
+   }
+}
